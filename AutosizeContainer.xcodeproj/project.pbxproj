@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCBC24DD2434CE46007BE4B7 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBC24DC2434CE46007BE4B7 /* Examples.swift */; };
 		FCF361FE23F63B4100C346D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF361FD23F63B4100C346D2 /* AppDelegate.swift */; };
 		FCF3620023F63B4100C346D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF361FF23F63B4100C346D2 /* SceneDelegate.swift */; };
 		FCF3620223F63B4100C346D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF3620123F63B4100C346D2 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FCBC24DC2434CE46007BE4B7 /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
 		FCF361FA23F63B4100C346D2 /* AutosizeContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutosizeContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF361FD23F63B4100C346D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCF361FF23F63B4100C346D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				FCF361FD23F63B4100C346D2 /* AppDelegate.swift */,
 				FCF361FF23F63B4100C346D2 /* SceneDelegate.swift */,
 				FCF3620123F63B4100C346D2 /* ViewController.swift */,
+				FCBC24DC2434CE46007BE4B7 /* Examples.swift */,
 				FCF3620323F63B4100C346D2 /* Main.storyboard */,
 				FCF3620623F63B4100C346D2 /* Assets.xcassets */,
 				FCF3620823F63B4100C346D2 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBC24DD2434CE46007BE4B7 /* Examples.swift in Sources */,
 				FCF3620223F63B4100C346D2 /* ViewController.swift in Sources */,
 				FCF361FE23F63B4100C346D2 /* AppDelegate.swift in Sources */,
 				FCF3620023F63B4100C346D2 /* SceneDelegate.swift in Sources */,
