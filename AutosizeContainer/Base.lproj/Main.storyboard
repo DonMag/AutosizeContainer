@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IBW-cv-Omm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IBW-cv-Omm">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,20 +15,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="pZn-NP-WyH">
-                                <rect key="frame" x="40" y="124" width="295" height="233.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="pZn-NP-WyH">
+                                <rect key="frame" x="40" y="202" width="295" height="263.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXo-cY-m1v">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autosizing UIContainerView Examples" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXo-cY-m1v">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="93.5"/>
-                                        <string key="text">Autosizing
-UIContainerView
-Examples</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="iy3-hu-wwd">
-                                        <rect key="frame" x="0.0" y="153.5" width="295" height="80"/>
+                                        <rect key="frame" x="0.0" y="133.5" width="295" height="130"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHk-c3-8Wc">
                                                 <rect key="frame" x="0.0" y="0.0" width="295" height="30"/>
@@ -46,6 +43,14 @@ Examples</string>
                                                     <segue destination="9Aq-IC-6cz" kind="show" id="xTS-Nw-ypa"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnj-5T-PBv">
+                                                <rect key="frame" x="0.0" y="100" width="295" height="30"/>
+                                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Example 3"/>
+                                                <connections>
+                                                    <segue destination="Ow3-2K-Ilm" kind="show" id="qqi-yO-r06"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -53,8 +58,8 @@ Examples</string>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="pZn-NP-WyH" firstAttribute="top" secondItem="g3T-Az-U8f" secondAttribute="top" constant="80" id="2wb-kC-MYN"/>
                             <constraint firstItem="g3T-Az-U8f" firstAttribute="trailing" secondItem="pZn-NP-WyH" secondAttribute="trailing" constant="40" id="RrW-xh-IFj"/>
+                            <constraint firstItem="pZn-NP-WyH" firstAttribute="centerY" secondItem="B5W-4K-sV3" secondAttribute="centerY" id="nHV-Jr-9Dx"/>
                             <constraint firstItem="pZn-NP-WyH" firstAttribute="leading" secondItem="g3T-Az-U8f" secondAttribute="leading" constant="40" id="olS-5B-83W"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="g3T-Az-U8f"/>
@@ -64,6 +69,16 @@ Examples</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bYf-5X-sVH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1574" y="2113"/>
+        </scene>
+        <!--Example3-->
+        <scene sceneID="gZ9-bZ-K6r">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Example3" id="Ow3-2K-Ilm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="c7s-Zo-Iba"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QWi-Us-cqT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1576" y="2536"/>
         </scene>
         <!--Example2 View Controller-->
         <scene sceneID="wid-7b-zVi">
@@ -326,6 +341,7 @@ Tap Show/Hide buttons to show/hide labels to see auto-sizing of container view.<
                             <constraint firstAttribute="bottomMargin" secondItem="j4x-0a-e6A" secondAttribute="bottom" constant="20" id="v3a-X8-SLW"/>
                             <constraint firstItem="Hg2-SD-alx" firstAttribute="leading" secondItem="En6-XH-Y4k" secondAttribute="leadingMargin" constant="20" id="wSR-JY-xEI"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="n93-Kx-7X6"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="335" height="240"/>
@@ -354,6 +370,7 @@ Tap Show/Hide buttons to show/hide labels to see auto-sizing of container view.<
                             <constraint firstItem="cv1-DK-dMK" firstAttribute="top" secondItem="QzP-vT-cwu" secondAttribute="topMargin" constant="12" id="JbB-U7-lMo"/>
                             <constraint firstItem="cv1-DK-dMK" firstAttribute="centerX" secondItem="QzP-vT-cwu" secondAttribute="centerX" id="gh2-ZE-8P1"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="x1O-DG-kxu"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="335" height="54"/>
